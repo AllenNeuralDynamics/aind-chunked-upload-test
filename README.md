@@ -18,7 +18,7 @@ Repository to test chunked data transfer uploads. Can be archived once testing i
 python -m aind_chunked_upload_test.transform_data_job --job-settings '{"input_source": "tests/resources/dummy_data/OnixEphys", "output_directory": "tests/resources/dummy_data_out/OnixEphys"}'
 ```
 
-### Example for running job with no chunk
+### Example for running job with chunk
 
 ```bash
 python -m aind_chunked_upload_test.transform_data_job --job-settings '{"input_source": "tests/resources/dummy_data/OnixEphys", "output_directory": "tests/resources/dummy_data_out/OnixEphys", "chunk": "2025-01-31T19-00-00"}'
