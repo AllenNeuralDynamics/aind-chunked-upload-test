@@ -17,6 +17,7 @@ readme = "README.md"
 dynamic = ["version"]
 
 dependencies = [
+    "aind-data-transformation>=0.1.1",
 ]
 
 [project.optional-dependencies]
